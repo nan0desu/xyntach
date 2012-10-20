@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>✖уита.ч</title>
+	<link rel="stylesheet" type="text/css" href="http://xynta.ch/css/menu_global.css" />
+				<link rel="stylesheet" type="text/css" href="/css/site_photon.css" title="Photon" />
+			<link rel="stylesheet" type="text/css" href="/css/sitemenu_photon.css" title="Photon" />
+				<link rel="alternate stylesheet" type="text/css" href="/css/site_none.css" title="None" />
+			<link rel="alternate stylesheet" type="text/css" href="/css/sitemenu_none.css" title="None" />
+	
+
+
+<script type="text/javascript"><!--
+			var style_cookie_site = "kustyle_site";
+		//--></script>
+<link rel="shortcut icon" href="/favicon.ico" />
+<script type="text/javascript" src="/lib/javascript/gettext.js"></script>
+<script type="text/javascript" src="/lib/javascript/menu.js"></script>
+<script type="text/javascript" src="/lib/javascript/kusaba.js"></script>
+<script type="text/javascript"><!--
+
+
+
+function showstyleswitcher() {
+		var switcher = document.getElementById('sitestyles');
+		switcher.innerHTML = 'Стили:[<a href="#" onclick="javascript:set_stylesheet(\'Photon\', false, true);reloadmain();" style="display: inline;" target="_self">P</a>] [<a href="#" onclick="javascript:set_stylesheet(\'None\', false, true);reloadmain();" style="display: inline;" target="_self">N</a>]';
+
+}
+
+function toggle(button, area) {
+	var tog=document.getElementById(area);
+	if(tog.style.display)	{
+		tog.style.display="";
+	} else {
+		tog.style.display="none";
+	}
+	button.innerHTML=(tog.style.display)?'+':'&minus;';
+	set_cookie('nav_show_'+area, tog.style.display?'0':'1', 30);
+}
+
+function removeframes() {
+	var boardlinks = document.getElementsByTagName("a");
+	for(var i=0;i<boardlinks.length;i++) if(boardlinks[i].className == "boardlink") boardlinks[i].target = "_top";
+
+	document.getElementById("removeframes").innerHTML = 'После перехода на доску фрейм будет убран.';
+
+	return false;
+}
+function reloadmain() {
+	if (parent.main) {
+		parent.main.location.reload();
+	}
+}
+
+function hidedirs() {
+	set_cookie('tcshowdirs', '', 30);
+			window.location = '/menu.html';
+	
+}
+function showdirs() {
+	set_cookie('tcshowdirs', 'yes', 30);
+			window.location = '/menu_dirs.html';
+	
+}
+function changelinks() { 
+        var rep = "https://"; //replace 
+        var find = "http://"; //find 
+        var links = document.getElementsByTagName("a"); 
+        for (i=0;i<links.length;i++) { 
+         links[i].href.replace(find,rep); 
+        } 
+} 
+//--></script>
+<base target="main" />
+</head>
+<body>
+<ul>
+<b><a href="http://xynta.ch/news.php"><font size="6">Хуита.ч</font></a></b>
+</ul>
+<ul>
+<li><a href="/" target="_top">Главная страница</a></li>
+<!--><li><a onclick="javascript:changelinks();" href="">[Паранойя]</a></li></!-->
+	<li id="sitestyles"><a onclick="javascript:showstyleswitcher();" href="#" target="_self">[Стили]</a></li>
+
+<!-->	<li><a onclick="javascript:hidedirs();" href="menu.html" target="_self">[Спрятать директории]</a></li>
+</!-->
+	<li id="removeframes"><a href="#" onclick="javascript:return removeframes();" target="_self">[Убрать фрейм]</a></li>
+
+</ul>
+
+		
+					<h2>
+		
+					<span class="plus" onclick="toggle(this, 'feedback');" title="Click to show/hide">&minus;</span>&nbsp;
+		
+		Обратная связь</h2>
+					<div id="feedback">
+		
+		<ul>
+									<li><a href="http://xynta.ch/x/" class="boardlink">
+									/x/ - 
+				
+				/x/уита.ч
+				
+				</a></li>
+			
+		
+		</ul>
+					</div>
+		
+		
+					<h2>
+		
+					<span class="plus" onclick="toggle(this, 'discuss');" title="Click to show/hide">&minus;</span>&nbsp;
+		
+		Общение</h2>
+					<div id="discuss">
+		
+		<ul>
+									<li><a href="http://xynta.ch/a/" class="boardlink">
+									/a/ - 
+				
+				/a/покалипсис
+				
+				</a></li>
+							<li><a href="http://xynta.ch/b/" class="boardlink">
+									/b/ - 
+				
+				/b/ич
+				
+				</a></li>
+							<li><a href="http://xynta.ch/c/" class="boardlink">
+									/c/ - 
+				
+				/c/onspiracy theory
+				
+				</a></li>
+							<li><a href="http://xynta.ch/f/" class="boardlink">
+									/f/ - 
+				
+				/f/iction
+				
+				</a></li>
+							<li><a href="http://xynta.ch/g/" class="boardlink">
+									/g/ - 
+				
+				/g/ames
+				
+				</a></li>
+							<li><a href="http://xynta.ch/m/" class="boardlink">
+									/m/ - 
+				
+				/m/usic
+				
+				</a></li>
+							<li><a href="http://xynta.ch/n/" class="boardlink">
+									/n/ - 
+				
+				/n/etstalking
+				
+				</a></li>
+							<li><a href="http://xynta.ch/o/" class="boardlink">
+									/o/ - 
+				
+				/o/verdose
+				
+				</a></li>
+							<li><a href="http://xynta.ch/p/" class="boardlink">
+									/p/ - 
+				
+				/p/aint
+				
+				</a></li>
+							<li><a href="http://xynta.ch/s/" class="boardlink">
+									/s/ - 
+				
+				/s/oft
+				
+				</a></li>
+							<li><a href="http://xynta.ch/t/" class="boardlink">
+									/t/ - 
+				
+				/t/ech
+				
+				</a></li>
+							<li><a href="http://xynta.ch/w/" class="boardlink">
+									/w/ - 
+				
+				/w/ipe
+				
+				</a></li>
+							<li><a href="http://xynta.ch/z/" class="boardlink">
+									/z/ - 
+				
+				/z/en
+				
+				</a></li>
+			
+		
+		</ul>
+					</div>
+		
+	
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,246 @@
+html, body {
+	background-color: #EEEEEE;
+	color: #333333;
+	font-family: "Trebuchet MS",Trebuchet,serif;
+/* 	background-image:url('/xb.png');  
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+     -webkit-background-size: cover; 
+	-moz-background-size: cover;
+	-o-background-size: cover; 
+	background-size: cover; */
+}
+
+li {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.adminbar {
+	clear:both;
+	float:right;
+	font-size: .8em;
+}
+
+.adminbar a {
+	font-weight: bold;
+}
+
+._subnav {
+	position: fixed;
+	right: 0em;
+	bottom: 0em;
+/*	background-color: #EEEEEE; */
+}
+
+.logo {
+	clear: both;
+	margin-top: .1em;
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
+	width: 100%;
+	color: #FF6600;
+}
+
+.BoardName {
+	float:right;
+}
+
+.replymode, .passvalid {
+	background: #DDDDDD;
+	text-align: center;
+	padding: 2px;
+	color: #666;
+	clear: both;
+	font-weight: bold;
+	margin-bottom: .5em;
+	border: solid 1px #CCCCCC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.catalogmode {
+	text-align: center;
+	padding: 2px;
+	color: #666;
+	clear: both;
+	font-weight: bold;
+	margin-bottom: .5em;
+	border: solid 1px #CCCCCC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #DDDDDD;
+}
+
+.postarea {
+}
+
+.rules {
+	font-size: .7em;
+}
+
+.postblock {
+	background: transparent;
+	color: #000;
+	font-weight: normal;
+}
+
+.footer {
+	text-align: center;
+	font-size: 11pt;
+	font-family: sans-serif;
+	margin: 2em 0 0 0;
+}
+
+.dellist {
+	font-weight: bold;
+	text-align: center;
+}
+
+.delbuttons {
+	text-align: center;
+	padding-bottom: 4px;
+}
+
+.managehead {
+	background: #DDDDDD;
+	color: #002244;
+	padding: 2px;
+}
+
+.postlists {
+	background: #FFFFFF;
+	width: 100%;
+	padding: 2px;
+	color: #800000;
+}
+
+.row1 {
+	background:#DDDDDD;
+	color:#002244;
+}
+
+.row2 {
+	background: #CCCCCC;
+	color: #002244;
+}
+
+.unkfunc {
+	background: inherit;
+	color: #789922;
+}
+
+.filesize {
+	text-decoration: none;
+	color: #666666;
+	font-size: .8em;
+}
+
+.filetitle {
+	background: inherit;
+	color: #333;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-style: normal;
+}
+
+.postername {
+	/* color: #004A99; */
+	/* font-weight: bold; */
+}
+
+.postertrip {
+	color: #FF3300;
+}
+
+.oldpost {
+	color: #CC1105;
+	font-weight: bold;
+}
+
+.omittedposts {
+	font-size: .9em;
+	color: #666666;
+}
+
+.reply {
+	background: #DDDDDD;
+}
+
+.doubledash {
+	display: none;
+ 	vertical-align: top;
+	clear: both;
+	float: left;
+}
+
+.replytitle {
+	font-size: 1.2em;
+	color: #002244;
+	font-weight: bold;
+}
+
+.commentpostername {
+	color: #004A99;
+	font-weight: 800;
+}
+
+.thumbnailmsg {
+	font-size: .8em;
+	color: #666666;
+}
+
+hr {
+	border-style: solid none none none;
+	border-width: 1px;
+	border-color: #BBBBBB;
+}
+
+.nothumb {
+}
+
+.abbrev {
+	color: #666666;
+}
+
+.highlight {
+	background: #EEDACB;
+	color: #333333;
+	border: 2px dashed #EE6600;
+}
+
+#watchedthreads {
+	background-color: #DDDDDD !important;
+  	border: 1px solid #CCCCCC !important;
+  	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+spectag {
+	top: auto;
+}
+
+.reflinkpreview {
+	background-color: #DDDDDD !important;
+}
+
+a:link, a:visited {
+ color: #FF6600;
+ text-decoration: none;
+}
+
+a:hover, a:active {
+ color: #FF6600;
+ text-decoration: underline;
+}
+
+._label, .reflink a {
+	color: #1a1a1a;
+}
+
+.reflink a:hover {
+	color: #FF6600;
+}
+

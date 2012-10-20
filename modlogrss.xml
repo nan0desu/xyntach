@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<title>Хуита.ч - Modlog</title>
+<link>http://xynta.ch</link>
+<description>Live view of all moderative actions on http://xynta.ch</description>
+<language>ru</language>
+	<item>
+	<title>Wed 08/01 23:43</title>
+	<description><![CDATA[lz - Rebuilt all boards and threads]]></description>
+	</item>
+	<item>
+	<title>Wed 08/01 23:43</title>
+	<description><![CDATA[lz - Updated board configuration - /z/]]></description>
+	</item>
+	<item>
+	<title>Wed 08/01 23:42</title>
+	<description><![CDATA[lz - Rebuilt all boards and threads]]></description>
+	</item>
+	<item>
+	<title>Wed 08/01 23:42</title>
+	<description><![CDATA[lz - Updated board configuration - /testrealm/]]></description>
+	</item>
+	<item>
+	<title>Wed 08/01 23:40</title>
+	<description><![CDATA[lz - Added board: /testrealm/]]></description>
+	</item>
+	<item>
+	<title>Wed 08/01 23:39</title>
+	<description><![CDATA[lz - Logged in]]></description>
+	</item>
+	<item>
+	<title>Wed 08/01 21:02</title>
+	<description><![CDATA[lz - Logged in]]></description>
+	</item>
+	<item>
+	<title>Tue 07/31 01:09</title>
+	<description><![CDATA[lz - Rebuilt all boards and threads]]></description>
+	</item>
+	<item>
+	<title>Tue 07/31 00:40</title>
+	<description><![CDATA[lz - Rebuilt all boards and threads]]></description>
+	</item>
+	<item>
+	<title>Tue 07/31 00:40</title>
+	<description><![CDATA[lz - Updated board configuration - /z/]]></description>
+	</item>
+	<item>
+	<title>Tue 07/31 00:39</title>
+	<description><![CDATA[lz - Updated board configuration - /z/]]></description>
+	</item>
+	<item>
+	<title>Tue 07/31 00:39</title>
+	<description><![CDATA[lz - Updated board configuration - /x/]]></description>
+	</item>
+	<item>
+	<title>Tue 07/31 00:39</title>
+	<description><![CDATA[lz - Updated board configuration - /w/]]></description>
+	</item>
+	<item>
+	<title>Tue 07/31 00:39</title>
+	<description><![CDATA[lz - Updated board configuration - /ultimatehiddenboard/]]></description>
+	</item>
+	<item>
+	<title>Tue 07/31 00:39</title>
+	<description><![CDATA[lz - Updated board configuration - /t/]]></description>
+	</item>
+
+</channel>
+</rss>

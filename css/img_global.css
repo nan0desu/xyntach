@@ -1,0 +1,200 @@
+@font-face {
+	font-family: 'SegoeScriptRegular';
+	src: url('/lib/fonts/web_fonts/segoesc/segoesc-webfont.eot');
+	src: local('Segoe Script'), local('SegoeScript'), url('/lib/fonts/web_fonts/segoesc/segoesc-webfont.woff') format('woff'), url('/lib/fonts/web_fonts/segoesc/segoesc-webfont.ttf') format('truetype'), url('/lib/fonts/web_fonts/segoesc/segoesc-webfont.svg#webfontk1BF2zmP') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: .5em 1.5em .5em 1em;
+}
+
+.postarea {
+	text-align: center;
+}
+
+.postarea table {
+	margin: 0 auto;
+	text-align: center;
+	text-align: left;
+}
+
+form {
+	/* All the threads except rules */
+	margin-bottom: 0;
+}
+
+form .trap {
+	display: none;
+}
+
+hr {
+	padding: 0;
+	margin: 1 em;
+	clear: both;
+}
+
+._singlepost {
+	margin-bottom: .2em;
+}
+
+.thread {
+      margin-top: 1em;
+	  margin-bottom: 1em;
+      clear: both;
+}
+
+.thread blockquote {
+	text-align: justify;
+	margin: .5em .5em .5em 0;
+	vertical-align: top;
+/* 	border: 1px solid blue; */
+}
+
+.omittedposts {
+	margin-left: 3px;
+}
+
+.thread td {
+	vertical-align: top;
+/* 	border: 1px solid blue; */
+}
+
+.reply {
+	padding: .5em 1em .5em 1em;
+}
+
+.CatalogTable {
+ width: 95%;
+ margin: auto 5%;
+}
+
+.reply blockquote, blockquote :last-child {
+	/* Post field except OP */
+/* 	clear: both; */
+/* 	margin: 5px; */
+/* 	border: 1px solid blue; */
+}
+
+.filesize {
+	margin: 0 auto 0 2px;
+/*	padding: 0;*/
+/*   vertical-align: middle; */
+/*   border: solid 1px blue; */
+}
+
+._player {
+	margin: .4em 0 .3em .2em;
+/* 	border: solid 1px green; */
+}
+
+.thumb {
+	/* Thumbnail */
+	border: none;
+	float: left;
+	margin: .2em 1em 1em 0;
+	padding: 0;
+/* 	vertical-align: top; */
+/* 	border: 1px solid red; */
+}
+
+.nothumb {
+	/* Deleted thumbnail */
+	float: left;
+	border-style: dotted;
+	padding: 20px;
+	margin: 20px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+}
+
+.userdelete {
+	/* Manage box at down-right corner */
+	float: right;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.replypage .replylink {
+	display: none;
+}
+
+#watchedthreads {
+	position: absolute;
+	/* background-color: #F0E0D6; */
+	border: 1px dotted #EEAA88;
+	/* border-top: 0px none; */
+}
+
+#watchedthreadsdraghandle {
+	text-align: center;
+	font-family: Trebuchet MS;
+	cursor: move;
+}
+
+#watchedthreadlist {
+	padding: 3px;
+	font-size: .8em;
+}
+
+#watchedthreadsbuttons {
+	position: absolute;
+	bottom: 3px;
+	left: 3px;
+}
+
+.spoiler {
+	color: gray;
+	background-color: gray;
+}
+
+.extrabtns {
+	/* Buttons */
+	vertical-align: middle;
+}
+
+.hidethread {
+	background: transparent url('./icons/gray/icons.gif') -32px -16px no-repeat !important;
+}
+
+.unhidethread {
+	background: transparent url('./icons/gray/icons.gif') -48px 0px no-repeat !important;
+}
+
+.watchthread {
+	background: transparent url('./icons/gray/icons.gif') -32px 0px no-repeat !important;
+}
+
+.expandthread {
+	background: transparent url('./icons/gray/icons.gif') 0px -16px no-repeat !important;
+}
+
+.quickreply {
+	background: transparent url('./icons/gray/icons.gif') 0px 0px no-repeat !important;
+}
+
+.hidewatchedthreads {
+	background: transparent url('./icons/gray/icons.gif') -48px -16px no-repeat !important;
+}
+
+.refreshwatchedthreads {
+	background: transparent url('./icons/gray/icons.gif') -16px -16px no-repeat !important;
+}
+
+.restorewatchedthreads {
+	background: transparent url('./icons/gray/icons.gif') -16px 0px no-repeat !important;
+}
+
+.reflinkpreview {
+	/* Tooltip */
+	background-color: #FFF;
+	border: thin dotted #666;
+	opacity: 0.9;
+}
+
+.hidden {
+ display:none;
+}
